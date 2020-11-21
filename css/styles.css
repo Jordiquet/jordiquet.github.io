@@ -1,0 +1,29 @@
+body{
+    background-color: #888;
+}
+
+g {
+    fill: #f0aa15;
+    stroke: #30064d;
+    stroke-width:4px;
+    transition: fill 0.3s;
+}
+
+g:hover{
+    stroke: #000;
+    fill: #006;
+    cursor: pointer;
+}
+
+svg {
+    display: block;
+    border: 1px solid #000;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background: #30064d;
+}
+
+/* comentaris */
