@@ -437,10 +437,10 @@ function onClick(areaidveins) {
             areaidveins[0].defensa = false;
             areaidveins[0].propietari = jugadors[torn];
             areaidveins[0].style.stroke = areaidveins[0].propietari.coloratacant;
-            soldatsatacants -= 1;
-            comarcaatacant.soldats -= 1;
+            soldatsatacants -= dausatac.length;
+            comarcaatacant.soldats -= dausatac.length;
             comarcaatacant.nombre.innerHTML = comarcaatacant.soldats;
-            areaidveins[0].soldats += 1;
+            areaidveins[0].soldats += dausatac.length;
             areaidveins[0].nombre.innerHTML = areaidveins[0].soldats;
             victoria = false;
         }
