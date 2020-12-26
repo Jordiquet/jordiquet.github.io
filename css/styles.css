@@ -1,18 +1,32 @@
-body{
+body {
     background-color: #888;
 }
 
-g {
-    fill: #f0aa15;
-    stroke: #30064d;
-    stroke-width:4px;
+a {
+    /*fill: #f0aa15;*/
+    stroke: #000;
+    stroke-width:5px;
     transition: fill 0.3s;
 }
-
-g:hover{
+/*
+a:hover {
     stroke: #000;
-    fill: #006;
+    fill: #660066;
     cursor: pointer;
+}
+*/
+
+.soldats {
+    cursor: default;
+    pointer-events: none;
+}
+
+.retoljugador {
+    cursor: default;
+}
+
+.botojugador {
+    cursor: default;
 }
 
 svg {
